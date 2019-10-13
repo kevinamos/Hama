@@ -19,7 +19,3 @@ class UserViewset(viewsets.ModelViewSet):
     queryset = User.objects.all()
     permission_classes = (AllowAny, )
 
-    @list_route(methods=['get'])
-    def user_roles(self, request):
-        roles = [role for role in registered_roles]
-        return Response(roles)
