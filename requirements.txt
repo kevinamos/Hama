@@ -3,6 +3,6 @@ django-rest-framework==0.1.0
 djangorestframework==3.9.4
 djangorestframework-simplejwt==4.1.4
 Pillow==6.2.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pytz==2019.3
 uuid==1.30
